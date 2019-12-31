@@ -13,7 +13,7 @@ public abstract class Event {
         eventTime = Instant.now().plus(delayTime);
     }
     public boolean ready() {
-        Instant.now().isAfter(eventTime);
+        return Instant.now().isAfter(eventTime);
     }
     public abstract void action();
 }
