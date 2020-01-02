@@ -17,8 +17,5 @@ public class AddGroups {
         List<Integer> list = Arrays.asList(16,17,18,19,20);
         list.set(1, 99);
 //        list.add(21);
-
-        HashMap<String,String> ss = new HashMap<>();
-        LinkedHashMap<String,String> lss = new LinkedHashMap<>();
     }
 }
