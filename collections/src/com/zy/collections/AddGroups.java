@@ -22,6 +22,6 @@ public class AddGroups {
         LinkedHashMap<String,String> lss = new LinkedHashMap<>();
         LinkedList<String> ls = new LinkedList<>();
         ls.remove("HelloWorld");
-        ls.remove(2);
+//        ls.remove(2);
     }
 }
