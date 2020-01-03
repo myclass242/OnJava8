@@ -20,5 +20,8 @@ public class AddGroups {
 
         HashMap<String,String> ss = new HashMap<>();
         LinkedHashMap<String,String> lss = new LinkedHashMap<>();
+        LinkedList<String> ls = new LinkedList<>();
+        ls.remove("HelloWorld");
+        ls.remove(2);
     }
 }
