@@ -13,7 +13,7 @@ public class RandomWords implements Supplier<String> {
         List<String> lines = Files.readAllLines(Path.of(fname));
         // skip the first linn
         for (String line : lines.subList(1, lines.size())) {
-            for (String word : line.split("[.?,]+")) {
+            for (String word : line.split("[ .?,]+")) {
                 words.add(word.toLowerCase());
             }
         }
