@@ -10,7 +10,7 @@ public class FileToWordsBuilder {
         Files.lines(Path.of(fname))
                 .skip(1)
                 .forEach(line->{
-                    for (String w : line.split("[.?,]+]")) {
+                    for (String w : line.split("[ ,.?]+")) {
                         builder.add(w);
                     }
                 });
